@@ -2,6 +2,28 @@ body{
   background-color: #f7f0d2;
   text-align: center;
   overflow-x: hidden;
+  max-width: 100%;
+  padding-left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+div{
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+}
+
+img{
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+
 }
 
 p{
@@ -76,13 +98,40 @@ div{
   padding-right: 25px;
   padding-top: 10px;
   padding-bottom: 10px;
-  width: 125px;
   border: 4;
   background-color: #94ff9f;
 }
 
 .title-button:active{
   background-color: black;
-  color:white;
+  color: #94ff9f;
   border-color: #94ff9f;
+}
+
+h1{
+  font-family: Gayathri;
+  font-weight:bold;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  font-size: 3rem;
+  color:#94ff9f;
+}
+
+.para{
+  color:#f7f0d2;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1.15rem;
+  text-align: left;
+}
+
+.grid{
+  margin: 0;
+  padding: 0;
 }
