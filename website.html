@@ -6,6 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gayathri:wght@100;400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://i.pinimg.com/736x/a3/3d/c9/a33dc9e63ba52be9812974774967be3e.jpg">
     <link rel="stylesheet" href="style.css">
   </head>
 
@@ -25,43 +26,125 @@
       </div>
     </div>
     
-    <div style="height: 50px;">
-      <button class="title-button">Download my Resume</button>
-      <button class="title-button">Resume</button>  
+    <div style="height: 50px; margin-bottom: 50px;">
+      <button class="title-button" style="margin-left: 50px;">Download my Resume</button>
+      <button class="title-button">something else</button>  
+      <img class="mini-star" src="assets/image 3.png">
     </div>
   </body>
   <div style="background: url(assets/wave.svg) top center no-repeat;">
-    <div style="height: 20vh;"></div>
+    <div style="height: 23vh;"></div>
   </div>
   <div style="background-color: black; display: block; padding-top: 30vh; text-align: center; ">
       <div style="display: inline-block;">
-        <div style="display:inline-block; vertical-align: middle;  width: 250px; text-align: right;">
-          <img style="vertical-align: middle; width: 250px; border-radius: 100%; transform: translateY(-5.5vw);" src="assets/profile.jpg">
+        <div style="display:inline-block; vertical-align: top;  width: 250px; text-align: right;">
+          <img style="vertical-align: top; width: 250px; border-radius: 100%; transform: translateY(0px); margin-bottom: 7vw;" src="assets/profile.jpg">
         </div>
         <div style="display: inline-block; margin-right:5vw">
         </div>
         <div style="display: inline-block; width: 30rem; vertical-align: center; ">
           <h1 style="padding-top: 0px; text-align: left; padding-bottom: 1rem"> 
-            <span style="background: -webkit-linear-gradient(#424242, rgba(0, 0, 0, 0)); padding-top: 1rem"> 
-              About Me</span></h1>
-
+            <span class="highlight"> 
+              About Me.</span></h1>
           <p class="para"> Hi! My name is Anthony Le. I'm a second-year Computer Science major at the University of Florida.
               I have plans in minoring in Digital Arts and Sciences and other fields! I'm interested in full stack development. Currently, 
               I'm exploring front-end development using HTML, CSS and JavaScript. 
+              <div style="height:25vh">
+                <h1 style="padding-top: 50px; font-size: 30px; text-align: left;">
+                  <span class="highlight"> Skills <span style="padding-left: 0.1rem;">:</span></span>
+                  <span class="skill"> <img class="skill-image" src="assets/python-logo-only.svg" style="transform: translateY(0.6vw);">Python</span> 
+                  <span class="skill"><img class="skill-image" src="assets/cpp.png" style="transform: translateY(0.5vw);">C++</span>
+                  <span class="skill"><img class="skill-image" src="assets/HTML5_Badge.svg.png" style="transform: translateY(0.5vw);">HTML </span>
+                </h1>
+                  <p style="text-decoration: wavy; text-align: left; margin-top:5px;">
+                    <span class="skill"><img class="skill-image" src="assets/CSS3_logo.svg.png" style="transform: translateY(0.5vw);">CSS</span>
+  
+                    <span class="skill-no-image" style="font-size: 16px; ">SFML</span>
+                    <span class="skill-no-image" style="font-size: 16px; ">Pygame</span>
+                  </p>
+  
+              </div>
           </p> 
       </div>
     </div>
   
-    <h1 style="padding-top: 50px">Skills</h1>
-    <p class="para">
-      Python, C++, HTML, CSS
-    </p>
-    <h1 style="padding-top: 50px">Contact Me!</h1>
-    <p class="para" width: 40vh>
-      email: leanthony2284@gmail.com
-      <p class="para">linkedin: l-anthony </p>
-      <p class="para">linkedin: l-anthony </p>
-    </p>
+
+    <h1 style="padding-top: 50px; padding-bottom: 25px"><span class="highlight">Projects.</span></h1>
+    <div style="margin-left: 5vw; margin-right: 5vw; vertical-align: center;">
+      <div class="project-card">
+        <img class="project-image" src="assets/no-thumbnail.png">
+        <h1 class="project-title">minesweeper</h1>
+        <div class="project-description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </div>
+        <div style="margin-top: 0.35rem; margin-left: 0.5rem; vertical-align: center;">
+          <div style="display: inline-block; vertical-align: center; width:73%; height: 36px">
+            <span class="project-skill">CSS</span> 
+            <span class="project-skill">SFML</span>   
+          </div>
+          <div style="display: inline-block; text-align: right; width:25%; vertical-align:bottom;">
+            <button class="github-button"> <img  class="github" src="assets/Octicons-mark-github-svg.svg"></button>
+          </div>
+        </div>
+
+
+      </div>
+        <div class="project-card">
+          <img class="project-image" src="assets/no-thumbnail.png">
+          <h1 class="project-title">minesweeper</h1>
+          <div class="project-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+          <div style="margin-top: 0.35rem; margin-left: 0.5rem; vertical-align: center;">
+            <div style="display: inline-block; vertical-align: center; width:73%; height: 36px">
+              <span class="project-skill">CSS</span> 
+              <span class="project-skill">SFML</span>   
+            </div>
+            <div style="display: inline-block; text-align: right; width:25%; vertical-align:bottom;">
+              <button class="github-button"> <img  class="github" src="assets/Octicons-mark-github-svg.svg"></button>
+            </div>
+
+          </div> 
+        </div>
+
+        <div class="project-card">
+          <img class="project-image" src="assets/no-thumbnail.png">
+          <h1 class="project-title">minesweeper</h1>
+          <div class="project-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+          <div style="margin-top: 0.35rem; margin-left: 0.5rem; vertical-align: center;">
+            <div style="display: inline-block; vertical-align: center; width:73%; height: 36px">
+              <span class="project-skill">CSS</span> 
+              <span class="project-skill">SFML</span>   
+            </div>
+            <div style="display: inline-block; text-align: right; width:25%; vertical-align:bottom;">
+              <button class="github-button"> <img  class="github" src="assets/Octicons-mark-github-svg.svg"></button>
+            </div>
+  
+        </div>   
+    </div>
+
+    
+    <div style="display: inline-block; margin-bottom: 20vh; text-align: left;">
+      <h1 style="padding-top: 10vh; text-align: left;"><span class="highlight">Contact Me!</span></h1>
+      <p class="para">
+        email: leanthony2284@gmail.com
+        <p class="para">linkedin: l-anthony </p>
+        <p class="para">github: anthonyle1 </p>
+      </p>
+      <button class="resume">get my resume! </button>
+
+  
+    </div>
+    <div style="display: inline-block;">
+      <p class="para" width: 40vh>
+        <p class="para">name </p>
+        <p class="para">email </p>
+        <p class="para">message </p>
+        <p class="para">send </p>
+      </p>
+    </div>
 
   </div>
 </html>

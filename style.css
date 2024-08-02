@@ -35,6 +35,10 @@ p{
   padding-bottom: 0;
 }
 
+span{
+  margin:0;
+}
+
 div{
   margin-top: 0;
   margin-bottom: 0;
@@ -91,6 +95,7 @@ div{
   border-radius: 25px;
   background-color: #f7f0d2;
   transition: all 0.15s;
+  cursor: pointer;
 }
 
 .title-button:hover{
@@ -134,4 +139,196 @@ h1{
 .grid{
   margin: 0;
   padding: 0;
+}
+
+.mini-star{
+  position: relative;
+  width:50px;
+  transform: translate(-13px, 40px);
+}
+
+.highlight{
+  background: -webkit-linear-gradient(#424242, rgba(0, 0, 0, 0)); 
+  padding-top: 1rem;
+}
+
+.skill {
+  font-family: Gayathri;
+  font-weight: bold;
+  font-size: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+  border-radius: 25px;
+  margin-left: 0.25vw;
+  border-color: #94ff9f;
+  border-style: solid;
+  border-width: 2px;
+  color:#f7f0d2;
+  background: -webkit-linear-gradient(#181b18, rgba(0, 0, 0, 0));
+  transition: all 0.15s;
+}
+
+.skill-no-image{
+  font-family: Gayathri;
+  font-weight: bold;
+  font-size: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.25rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 25px;
+  margin-left: 0.25vw;
+  border-color: #94ff9f;
+  border-style: solid;
+  border-width: 2px;
+  color:#f7f0d2;
+  background: -webkit-linear-gradient(#181b18, rgba(0, 0, 0, 0));
+  transition: all 0.05s;
+}
+
+.skill:hover {
+  border-color: #94ff9f;
+  padding-top: 0.65rem;
+  padding-bottom: 0.35rem;
+  padding-left: 1.25rem;
+  padding-right: 1.5rem;
+
+}
+
+.skill-no-image:hover{
+  border-color: #94ff9f;
+  padding-top: 0.65rem;
+  padding-bottom: 0.35rem;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.skill-image{
+  height:22px;
+  transform: translateX(0vw);
+  padding-right: 0.7vw;
+
+}
+.project-card{
+  display: inline-block;
+  color:white;
+  width: 18.5rem;
+  border-width:2px;
+  border-style:solid;
+  border-color:#424242;
+  border-radius: 5%;
+  margin-right:1.10vw;
+  margin-left:1.10vw;
+  margin-bottom:1rem;
+  vertical-align: top;
+  text-align: left;
+  background: -webkit-linear-gradient(#94ff9f 40%,  rgba(0, 0, 0, 0) 63%), #36363634 100%;  
+}
+
+.project-card:hover{
+  width: 20rem;
+  height: 27rem;
+}
+
+.project-title{
+  font-family: Arial;
+  font-weight: 900;
+  color:#f7f0d2;
+  font-size: 1.75rem;
+  margin-left: 0.75rem;
+  text-align: left;
+  margin-bottom: 0.2rem;
+}
+
+.project-image{
+  width: 100%;
+  border-radius: 5%;
+  margin-bottom: 1rem;
+}
+
+.project-skill{
+  font-family: Gayathri;
+  font-weight: bold;
+  font-size: 0.75rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.15rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 25px;
+  margin-left: 0.25rem;
+  border-color: wheat;
+  border-style: solid;
+  border-width: 2px;
+  color:#f7f0d2;
+  background: -webkit-linear-gradient(#181b18, rgba(0, 0, 0, 0));
+  transition: all 0.05s;
+}
+
+.github{
+  padding:0;
+  margin:0;
+  display: inline-block;
+  height:33px;
+  text-align: right;
+  background: none;
+  height:33px;
+
+}
+
+.github-button{
+  padding:0;
+  display: inline-block;
+  margin-right: 0.5rem;
+  text-align: right;
+  background: none;
+  border-radius: 100%;
+  border-width: 2px;
+  border: solid;
+  border-color: black;
+  height:36px;
+  width:36px;
+  margin-bottom: 0.5rem;
+}
+
+
+.github:hover{
+  filter:grayscale();
+}
+
+.github:active{
+  filter:invert();
+}
+
+.project-description{
+  font-family: Gayathri;
+  padding-left:0.75rem;
+  padding-right: 0.75vw;
+  width: fit-content;
+  margin:0;
+
+}
+
+.resume{
+  margin-top:15px;
+  border-radius: 2;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-family: Arial;
+  font-size: 1.25rem;
+  text-align: left;
+  font-weight: bold;
+  border-radius: 25px;
+  background-color: #94ff9f;
+  color: black;
+  transition: all 0.15s;
+  cursor: pointer;
+  justify-self: left;
+  text-align: left;
 }
