@@ -9,6 +9,10 @@ body{
   padding: 0;
 }
 
+a{
+  color: rgb(0,0,0,0);
+}
+
 header{
   text-align: center;
   padding:0; margin:0;
@@ -136,6 +140,14 @@ div{
   background-color: rgb(0,0,0,0);
   transition: all 0.15s;
   cursor: pointer;
+}
+
+.title-button img{
+  filter:brightness(0);
+}
+
+.title-button img:active{
+  filter:none;
 }
 
 .title-button:hover{
