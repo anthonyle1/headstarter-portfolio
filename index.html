@@ -12,7 +12,16 @@
   </head>
 
   <body>
-    <div style="margin-top:50px; ">
+    <header>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#about"><span class="hovering">About</span></a></li>
+          <li><a href="#projects"><span class="hovering">Projects</span></a></li>
+          <li><a href="#contact"><span class="hovering">Contact</span></a></li>
+        </ul>
+      </nav>
+    </header>
+    <div style="margin-top:-10px; ">
       <div style="display: inline;">
         <div>
           <div class="star-1">
@@ -46,14 +55,14 @@
   <div style="background: url(assets/wave.svg) top center no-repeat;">
     <div style="height: 23vh;"></div>
   </div>
-  <div style="background-color: black; display: block; padding-top: 30vh; text-align: center; ">
+  <div style="background-color: black; display: block; padding-top: 30vh; text-align: center; " id="about">
       <div style="display: inline-block;">
         <div style="display:inline-block; vertical-align: top;  width: 250px; text-align: right;">
           <img style="vertical-align: top; width: 250px; border-radius: 100%; transform: translateY(0px); margin-bottom: 7vw;" src="assets/profile.jpg">
         </div>
         <div style="display: inline-block; margin-right:5vw">
         </div>
-        <div style="display: inline-block; width: 30rem; vertical-align: center; ">
+        <div style="display: inline-block; width: 30rem; vertical-align: center;" >
           <h1 style="padding-top: 0px; text-align: left; padding-bottom: 1rem"> 
             <span class="highlight"> 
               About Me.</span></h1>
@@ -92,17 +101,17 @@
     </div>
   
 
-    <h1 style="padding-top: 50px; padding-bottom: 25px"><span class="highlight">
+    <h1 style="padding-top: 50px; padding-bottom: 25px" id="projects"><span class="highlight">
       Projects.
     </span></h1>
     <div style="margin-left: 5vw; margin-right: 5vw; vertical-align: center;">
       <div class="project-card">
-        <img class="project-image" src="assets/no-thumbnail.png">
+        <img class="project-image" src="assets/minesweeper-thumbnail.png">
         <h1 class="project-title">
           minesweeper
         </h1>
         <div class="project-description">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          The goal? Correctly flag all of the bombs! The application's dimensions can be changed. It features a leaderboard that track top times.
         </div>
         <div style="margin-top: 0.35rem; margin-left: 0.5rem; vertical-align: center;">
           <div style="display: inline-block; vertical-align: center; width:73%; height: 36px">
@@ -118,15 +127,14 @@
           </div>
         </div>
 
-
       </div>
         <div class="project-card">
-          <img class="project-image" src="assets/no-thumbnail.png">
+          <img class="project-image" src="assets/sudoku-thumbnail.png">
           <h1 class="project-title">
             sudoku
           </h1>
           <div class="project-description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            A classic 9x9 square sudoku game with win and losing screens! It was built collabortively, creating a UI that connects to the backend.
           </div>
           <div style="margin-top: 0.35rem; margin-left: 0.5rem; vertical-align: center;">
             <div style="display: inline-block; vertical-align: center; width:73%; height: 36px">
@@ -147,12 +155,12 @@
         </div>
 
         <div class="project-card">
-          <img class="project-image" src="assets/no-thumbnail.png">
+          <img class="project-image" src="assets/personal-website-thumbnail.png">
           <h1 class="project-title">
             personal website
           </h1>
           <div class="project-description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            This website is what you are on right now! A website built for Headstarter AI showcasing myself and my work, with the layout done in Figma. 
           </div>
           <div style="margin-top: 0.35rem; margin-left: 0.5rem; vertical-align: center;">
             <div style="display: inline-block; vertical-align: center; width:73%; height: 36px">
@@ -173,7 +181,7 @@
     </div>
 
     
-    <div style="display: inline-block; margin-bottom: 20vh; text-align: left;">
+    <div style="display: inline-block; margin-bottom: 20vh; text-align: left;" id="contact">
       <h1 style="padding-top: 10vh; text-align: left;"><span class="highlight">
         Contact Me!
       </span></h1>
